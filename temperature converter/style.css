@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+body {
+    background: url(temperature-converter-schema.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 100px;
+}
+
+
+.container {
+
+
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    justify-content: center;
+    height: 350px;
+    width: 50%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.425);
+    box-shadow: 0 0 2rem black;
+
+
+}
+
+.inp {
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 1rem rgb(1, 1, 37);
+}
+
+.temp h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 1rem white;
+
+}
+
+.input label {
+    font-size: 35px;
+    color: rgb(1, 1, 37);
+    font-weight: 700;
+}
